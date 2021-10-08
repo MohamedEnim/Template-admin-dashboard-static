@@ -1,0 +1,36 @@
+.tableCust {
+  height: 100%;
+}
+
+.userList__statusContainer {
+  position: relative;
+}
+.userList__status {
+  margin-left: 10px;
+}
+.userList__status::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+.userList__statusP::before {
+  background-color: red !important;
+}
+
+.userList__statusA::before {
+  background-color: green !important;
+}
+
+.userList__edit {
+  color: rgb(35, 170, 35) !important;
+}
+
+.userList__delete {
+  color: rgb(221, 8, 8);
+}

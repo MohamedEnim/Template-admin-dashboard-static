@@ -1,0 +1,91 @@
+.user {
+  flex: 4;
+}
+
+.user__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+}
+.user__header > Button {
+  text-transform: none !important;
+  background-color: teal !important;
+  color: white !important;
+  padding: 7px 20px !important;
+}
+
+.user__feed {
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+}
+
+.user__propile {
+  flex: 1;
+  margin-right: 10px;
+}
+.user__propileWidget {
+  margin-top: 10px !important;
+}
+.user__profileDetails {
+  margin: 20px 0;
+}
+
+.user__update {
+  flex: 2;
+  margin-left: 10px;
+}
+.user__updateTitle {
+  margin-bottom: 20px;
+}
+
+.user__updateWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__updateTitleLeft {
+  display: flex;
+  flex: 2;
+}
+
+.user__updateGroupe {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.user__updateTitleRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user__updateTitleRightTop {
+  position: relative;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.user__updateTitleRightTop > label {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.user__updateTitleRightTop > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.user__updateTitleRightBottom > Button {
+  text-transform: none !important;
+  width: 100% !important;
+  background-color: darkblue !important;
+  color: white !important;
+  padding: 7px 10px !important;
+}

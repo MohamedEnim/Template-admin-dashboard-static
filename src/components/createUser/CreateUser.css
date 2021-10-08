@@ -1,0 +1,62 @@
+.createUser {
+  flex: 4;
+  margin: 5px;
+  padding: 10px;
+}
+
+.createUser__title {
+  margin-bottom: 15px;
+}
+.user__updateGroup {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.user__updateGroupLeft {
+  flex: 1;
+  margin: 0 10px 0 0;
+}
+.user__updateGroupRight {
+  flex: 1;
+  margin: 0 0 0 10px;
+}
+
+.createUser__radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.createUser__radio > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.createUser__botton {
+  margin-top: 50px !important;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.createUser__botton > Button {
+  text-transform: none !important;
+  width: 40% !important;
+  background-color: darkblue !important;
+}
+
+.createUser__select {
+  display: flex;
+  flex-direction: column;
+}
+
+.createUser__select > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createUser__selectSel {
+  font-size: 15px;
+  border-color: lightgray;
+  padding: 9px;
+  border-width: 1px;
+}

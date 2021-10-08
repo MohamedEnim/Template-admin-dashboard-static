@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.app__container {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

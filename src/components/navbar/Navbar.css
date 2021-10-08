@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+.navbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.navbar__wrapperLeftLogo {
+  font-size: 30px;
+  font-weight: 600;
+  color: darkblue;
+}
+
+.css-1wlk0hk-MuiAvatar-root {
+  width: 33px !important;
+  height: 33px !important;
+}
+
+.navbar__wrapperRight {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,51 @@
+.widgetR {
+  flex: 1.9;
+  margin: 15px;
+}
+
+.widgetR__title {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.css-1ex1afd-MuiTableCell-root,
+.css-177gid-MuiTableCell-root,
+.css-177gid-MuiTableCell-root,
+.css-177gid-MuiTableCell-root,
+.css-1ygcj2i-MuiTableCell-root,
+.css-1ygcj2i-MuiTableCell-root,
+.css-1ygcj2i-MuiTableCell-root,
+.css-1ygcj2i-MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.widgetR__tableCell {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.widgetR__tableCellB {
+  color: rgb(170, 169, 169) !important;
+}
+
+.widgetR__tableBn {
+  border-radius: 8px !important;
+}
+
+.widgetR__tableBnApprov {
+  background-color: #e5faf2 !important;
+  color: #3bb077 !important;
+}
+
+.widgetR__tableBnDeclin {
+  background-color: #fff0f1 !important;
+  color: #d95087 !important;
+}
+
+.widgetR__tableBnPend {
+  background-color: #edf1fe !important;
+  color: #2a7ade !important;
+  min-width: 81.27px !important;
+}

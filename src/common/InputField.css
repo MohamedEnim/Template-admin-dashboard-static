@@ -1,0 +1,22 @@
+.inputField__item {
+  display: flex;
+  flex-direction: column;
+}
+.inputField__item > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.inputField__input {
+  font-size: 15px;
+  outline: none;
+  border-color: lightgray;
+  padding: 10px;
+  border-width: 1px;
+}
+
+.inputField--option {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding-left: none;
+}

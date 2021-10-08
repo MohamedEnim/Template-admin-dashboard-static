@@ -1,0 +1,17 @@
+.home {
+  flex: 4;
+  margin: 10px 0 30px 0;
+}
+
+.home__featuredInfo {
+  display: flex;
+}
+
+.home__chart {
+  margin: 5px;
+  padding: 10px;
+}
+
+.home__widgets {
+  display: flex;
+}

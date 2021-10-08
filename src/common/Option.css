@@ -1,0 +1,12 @@
+.option {
+  margin: 10px 0;
+}
+.option__item {
+  display: flex;
+  align-items: center;
+}
+
+.option__itemIcon {
+  font-size: 18px !important;
+  margin-right: 10px;
+}

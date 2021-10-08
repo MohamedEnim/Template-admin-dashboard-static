@@ -1,0 +1,12 @@
+.widgetLf {
+  flex: 1;
+  margin: 15px;
+  height: 100%;
+}
+
+.widgetLf__title {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0 0 16px 0;
+}
