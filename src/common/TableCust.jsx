@@ -9,6 +9,7 @@ import IconButton from "@mui/material/IconButton";
 
 const TableCust = ({ fields, rows }) => {
   const [data, setData] = useState(rows);
+  console.log(rows);
   const history = useHistory();
   const location = useLocation();
 
